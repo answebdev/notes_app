@@ -8,6 +8,8 @@ import PostItImage from '@/assets/images/post-it.png';
 // is the routing folder.
 
 const HomeScreen = () => {
+  const router = useRouter();
+
   return (
     <View style={styles.container}>
       <Image source={PostItImage} style={styles.image} />
